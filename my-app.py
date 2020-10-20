@@ -31,6 +31,10 @@ while True:
       feelings_list.append("angry")
       encouragement_list.append("Please don't. Close your eyes and count to ten. You might feel better. Tell a friend or family member if you do not and explain the situation.")
       counter += 1
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("See a doctor. Don't do anything stupid. There is still hope. We'll get over this together.")
+      counter += 1
       
   if counter == 0:
     
