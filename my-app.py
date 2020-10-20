@@ -17,15 +17,15 @@ while True:
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("spread your positivity to others")
+      encouragement_list.append("you should spread your positivity to others")
       counter += 1
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("call your family or friends, tell them how much they mean to you")
+      encouragement_list.append("you should call your family or friends, tell them how much they mean to you")
       counter += 1
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("Better things are to come! Be optimistic!")
+      encouragement_list.append("better things are to come! be optimistic")
       counter += 1
 
   if counter == 0:
